@@ -1,0 +1,59 @@
+.navigationBar{
+
+    font-family:'Noto Serif Khojki',serif;
+    font-weight:normal;
+    font-style: unset;
+    background-color: #35A5C9;
+
+    text-align: left;
+    display:inline-grid;
+    min-width:100px;
+    max-width: 1200px;
+    max-height: 200px;
+    min-height: 100px;
+    margin:5px;
+    word-spacing: 20px;
+    text-space: 2px;
+    letter-spacing: 1px;
+
+
+}
+nav li{
+    display:inline;
+    margin:30px;
+    width:300px;
+    padding:0px 10px;
+
+}
+.naviText{
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: cornsilk;
+    color:cornsilk;
+    padding:3px;
+    margin:auto;
+    height:35px;
+
+}
+.naviText:hover{
+   color:red;
+}
+#logo {
+   width:60px;
+    height:60px;
+    border-style: none;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+a:hover{
+    color: sandybrown;
+    border:1px solid white;
+}
+
+
+
+

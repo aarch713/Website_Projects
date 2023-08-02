@@ -1,0 +1,171 @@
+body{
+    max-width:1300px;
+    min-width:1200px;
+    background-color: beige;
+    margin: 0 auto;
+
+}
+.navbar li{
+    float:right;
+    display:inline;
+
+
+}
+.header{
+    background-color: #201E2E;
+    width:1300px;
+    height:69px;
+    position:fixed;
+    display:flex;
+    justify-content: flex-start;
+    justify-items:center;
+
+}
+.headerContainer{
+    padding-left: 800px;
+    width:500px;
+    height:69px;
+    position:fixed;
+    display:flex;
+    justify-content: space-around;
+
+
+}
+
+
+.navbar ul{
+    display:flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    padding:20px 10px;
+
+
+}
+.logo{
+    width:150px;
+    height:50px;
+    padding-left:10px;
+    padding-top:10px;
+    float: left;
+}
+
+.navbar a{
+    color:white;
+    font-size:20px;
+    padding-left: 55px;
+    padding-right: 5px;
+}
+
+
+.insiderContainer{
+    height:700px;
+    width:1200px;
+    align-content: center;
+
+    color:white;
+    text-align: center;
+
+
+    margin: 0 auto;
+
+}
+
+.container{
+    padding-top:67px;
+    min-width:1300px;
+    max-width:1400px;
+    height:2110px;
+    display:inline-flex;
+    flex-direction: column;
+    align-content: center;
+    flex-grow: 1;
+    justify-content:space-around;
+    background-color: #201E2E;
+    margin: 1px auto;
+}
+
+footer{
+
+    min-width:1300px;
+    max-width:1400px;
+}
+
+#c1{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width:1200px; height:700px;
+}
+.c1{
+    display:flex;
+    background-color: #201E2E;
+    z-index: 1;
+    font-weight: 800;
+    font-size:18px;
+    margin-top: 270px;
+    height:50px;
+    width:1200px;
+    text-align: center;
+    justify-content: center;
+
+}
+.c11{
+    display:flex;
+    background-color: #201E2E;
+    z-index: 1;
+    font-weight: 800;
+    font-size:18px;
+    margin-bottom:20px;
+    height:50px;
+    width:1200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.insiderContainer-1{
+    width:1000px;
+    height:100px;
+    top:100px;
+    margin:10px auto;
+
+}
+.teaofthemonth{
+    display:block;
+
+}
+.teaofthemonth h4{
+   line-height:10px;
+}
+
+.insiderContainer-2{
+    width:1000px;
+    height:450px;
+
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding:5px 10px;
+    margin:5px 5px;
+    justify-content: center;
+}
+.teaofthemonthimages{
+    height:178px;
+    width:281px;
+
+}
+.Image-1{
+    display:inline-flex;
+    height:210px;
+    width:300px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:bold;
+}
+
+
+*{
+    /*border:1px solid red;*/
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+
