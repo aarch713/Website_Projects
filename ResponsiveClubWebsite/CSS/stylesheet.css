@@ -1,0 +1,64 @@
+@font-face {
+    font-family:Inter, "Times New Roman", Helvetica, sans-serif ;
+}
+html{
+    font-family: Inter, "Times New Roman", Helvetica, sans-serif ;
+    font-size:16px;
+
+}
+.container{
+    display:block ;
+
+
+}
+
+.headerBar{
+    display:grid;
+    background-color: teal;
+    height:45px;
+}
+
+
+.headerBar ul{
+
+    list-style-type: none;
+
+
+}
+
+.headerBar li{
+
+    display:inline-block;
+    padding-right: 4rem;
+}
+
+.footer{
+    background-color: teal;
+}
+
+a{
+    color:#efa47d;
+    text-decoration: none;
+}
+/**{*/
+/*    border:1px solid red;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+
+
+}
+
+@media only screen and (min-width: 1000px){
+
+
+}
